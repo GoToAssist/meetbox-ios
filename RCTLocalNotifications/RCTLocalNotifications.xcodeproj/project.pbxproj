@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F08F4AA1AF8BB050028A451 /* RCTLocalNotifications.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F08F4A91AF8BB050028A451 /* RCTLocalNotifications.h */; };
+		8F08F4AC1AF8BB050028A451 /* RCTLocalNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F08F4AB1AF8BB050028A451 /* RCTLocalNotifications.m */; };
+		8F08F4B21AF8BB050028A451 /* libRCTLocalNotifications.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F08F4A61AF8BB050028A451 /* libRCTLocalNotifications.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F08F4B31AF8BB050028A451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F08F49E1AF8BB050028A451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F08F4A51AF8BB050028A451;
+			remoteInfo = RCTLocalNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F08F4A41AF8BB050028A451 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8F08F4AA1AF8BB050028A451 /* RCTLocalNotifications.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8F08F4A61AF8BB050028A451 /* libRCTLocalNotifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTLocalNotifications.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F08F4A91AF8BB050028A451 /* RCTLocalNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTLocalNotifications.h; sourceTree = "<group>"; };
+		8F08F4AB1AF8BB050028A451 /* RCTLocalNotifications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTLocalNotifications.m; sourceTree = "<group>"; };
+		8F08F4B11AF8BB050028A451 /* RCTLocalNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTLocalNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F08F4A31AF8BB050028A451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F08F4AE1AF8BB050028A451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F08F4B21AF8BB050028A451 /* libRCTLocalNotifications.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F08F49D1AF8BB050028A451 = {
+			isa = PBXGroup;
+			children = (
+				8F08F4A81AF8BB050028A451 /* RCTLocalNotifications */,
+				8F08F4A71AF8BB050028A451 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F08F4A71AF8BB050028A451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F08F4A61AF8BB050028A451 /* libRCTLocalNotifications.a */,
+				8F08F4B11AF8BB050028A451 /* RCTLocalNotificationsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F08F4A81AF8BB050028A451 /* RCTLocalNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				8F08F4A91AF8BB050028A451 /* RCTLocalNotifications.h */,
+				8F08F4AB1AF8BB050028A451 /* RCTLocalNotifications.m */,
+			);
+			path = RCTLocalNotifications;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F08F4A51AF8BB050028A451 /* RCTLocalNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F08F4BA1AF8BB050028A451 /* Build configuration list for PBXNativeTarget "RCTLocalNotifications" */;
+			buildPhases = (
+				8F08F4A21AF8BB050028A451 /* Sources */,
+				8F08F4A31AF8BB050028A451 /* Frameworks */,
+				8F08F4A41AF8BB050028A451 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTLocalNotifications;
+			productName = RCTLocalNotifications;
+			productReference = 8F08F4A61AF8BB050028A451 /* libRCTLocalNotifications.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8F08F4B01AF8BB050028A451 /* RCTLocalNotificationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F08F4BD1AF8BB050028A451 /* Build configuration list for PBXNativeTarget "RCTLocalNotificationsTests" */;
+			buildPhases = (
+				8F08F4AD1AF8BB050028A451 /* Sources */,
+				8F08F4AE1AF8BB050028A451 /* Frameworks */,
+				8F08F4AF1AF8BB050028A451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F08F4B41AF8BB050028A451 /* PBXTargetDependency */,
+			);
+			name = RCTLocalNotificationsTests;
+			productName = RCTLocalNotificationsTests;
+			productReference = 8F08F4B11AF8BB050028A451 /* RCTLocalNotificationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F08F49E1AF8BB050028A451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Christian Bak";
+				TargetAttributes = {
+					8F08F4A51AF8BB050028A451 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8F08F4B01AF8BB050028A451 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8F08F4A11AF8BB050028A451 /* Build configuration list for PBXProject "RCTLocalNotifications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F08F49D1AF8BB050028A451;
+			productRefGroup = 8F08F4A71AF8BB050028A451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F08F4A51AF8BB050028A451 /* RCTLocalNotifications */,
+				8F08F4B01AF8BB050028A451 /* RCTLocalNotificationsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F08F4AF1AF8BB050028A451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F08F4A21AF8BB050028A451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F08F4AC1AF8BB050028A451 /* RCTLocalNotifications.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F08F4AD1AF8BB050028A451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F08F4B41AF8BB050028A451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F08F4A51AF8BB050028A451 /* RCTLocalNotifications */;
+			targetProxy = 8F08F4B31AF8BB050028A451 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F08F4B81AF8BB050028A451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F08F4B91AF8BB050028A451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F08F4BB1AF8BB050028A451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8F08F4BC1AF8BB050028A451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8F08F4BE1AF8BB050028A451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RCTLocalNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F08F4BF1AF8BB050028A451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RCTLocalNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F08F4A11AF8BB050028A451 /* Build configuration list for PBXProject "RCTLocalNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F08F4B81AF8BB050028A451 /* Debug */,
+				8F08F4B91AF8BB050028A451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F08F4BA1AF8BB050028A451 /* Build configuration list for PBXNativeTarget "RCTLocalNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F08F4BB1AF8BB050028A451 /* Debug */,
+				8F08F4BC1AF8BB050028A451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F08F4BD1AF8BB050028A451 /* Build configuration list for PBXNativeTarget "RCTLocalNotificationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F08F4BE1AF8BB050028A451 /* Debug */,
+				8F08F4BF1AF8BB050028A451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F08F49E1AF8BB050028A451 /* Project object */;
+}
