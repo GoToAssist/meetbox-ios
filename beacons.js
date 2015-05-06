@@ -1,5 +1,6 @@
 var React = require('react-native');
 var Beacons = require('react-native-ibeacon');
+var Resources = require('./resources.js');
 
 var {
   DeviceEventEmitter,
@@ -15,7 +16,17 @@ Beacons.startUpdatingLocation();
 //Subscribe to the notification action
 DeviceEventEmitter.addListener(
     'EventReminder',
-    (reminder) => console.log("Join meeting!", reminder)
+    (room) => {
+    	Resources.getResource('/meetings').then((meetings) => {
+      		console.log("Meetings", meetings);
+      		if (meetings.length) {
+      			Resources.postToResource('/join', {
+      				room: room,
+      				meeting: { url: meetings[0] }
+      			});
+      		}
+    	});
+    }
 );
 
 // Request for authorization while the app is open
@@ -66,15 +77,17 @@ DeviceEventEmitter.addListener(
 				//console.log('Still in region', currentRegion.beacons);
 			} else {
 				//We're in a new region , that's not the current, so switch
-				console.log("New region!", region[0], data);
 				if (findNearestRegion(data, currentRegion) === data) {
 					currentRegion = region[0];
-					currentRegion.beacons = data.beacons;	
+					currentRegion.beacons = data.beacons;
+					DeviceEventEmitter.emit("EnterRegion", currentRegion);
+					console.log("New region!", region[0], data);
 				}
 			}
 		} else {
 			if (currentRegion && region.length && region[0].uuid === currentRegion.uuid) {
 				console.log("Left region!", region[0], data);
+				DeviceEventEmitter.emit("LeaveRegion", currentRegion);
 				currentRegion = undefined;
 			}
 		}

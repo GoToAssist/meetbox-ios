@@ -12,25 +12,14 @@ var {
   PushNotificationIOS,
   AsyncStorage
 } = React;
+
 var LocalNotifications = require('NativeModules').LocalNotifications;
 
 var Login = require('./login.ios.js');
 var Meetings = require('./meetings.ios.js');
 var Rooms = require('./rooms.ios.js');
 
-// Define a region which can be identifier + uuid,  
-// identifier + uuid + major or identifier + uuid + major + minor 
-// (minor and major properties are numbers) 
-var region = {
-    identifier: 'Estimotes',
-    uuid: 'ED7D755B-0573-4DF1-83D6-71D41188BD54'
-    //uuid: 'B9407F30-F5F8-466E-AFF9-25556B57FE6D'
-};
-
-var region2 = {
-    identifier: 'Estimotes',
-    uuid: 'B9407F30-F5F8-466E-AFF9-25556B57FE6D'
-};
+//AsyncStorage.setItem("Auth", "");
 
 var {
   AppRegistry,

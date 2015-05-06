@@ -50,7 +50,7 @@
    */
 
   //jsCodeLocation = [NSURL URLWithString:@"http://meetboxios.ngrok.io/index.ios.bundle"];
-  jsCodeLocation = [NSURL URLWithString:@"http://10.0.1.13:8081/index.ios.bundle"];
+  jsCodeLocation = [NSURL URLWithString:@"http://10.228.138.89:8081/index.ios.bundle"];
 
   /**
    * OPTION 2
